@@ -1,0 +1,41 @@
+*{
+    
+
+}
+
+body {
+   
+
+}
+
+header {
+
+}
+
+/*======================CLASS SELECTOR===================*/
+
+.p1 {
+    font-style: italic;
+}
+
+.p2 {
+    color: green;
+}
+
+.p3 {
+    text-align: right;
+}
+
+.p4 {
+    text-align: center;
+    font-weight: bolder;
+    color: crimson;
+    
+}
+
+/*======================I.D. SELECTOR===================*/
+
+#fontsize {
+    font-size: x-large;
+}
+

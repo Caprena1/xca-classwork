@@ -1,0 +1,18 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    padding: 10px;
+}
+
+/*--CLASS SELECTOR--*/
+
+.border{
+    border: 50px solid darkgreen;
+    border: 20p dashed yellow;
+}
+

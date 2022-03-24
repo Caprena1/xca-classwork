@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(36, 33, 33);
+    margin-top: 100px;
+    margin-left: 500px;
+    
+}
+
+
+/*--CLASS SELECTION*/
+
+.jpeg {
+    width: 295px;
+    height: 600px;
+    border-left:3px solid black;
+    border-right:3px solid black;
+    border-top:3px solid black
+    background-color whitesmoke;
+    
+}
+
+
+.div1 {
+    background-color: darkgray;
+    width: 275px;
+    height: 275px;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: Genos;
+    border-bottom:3px solid black;
+    border-left:3px solid black;
+    border-right:3px solid black;
+    line-height: 1.5px;
+    
+    
+}
+
+.fight {
+    background-color: navy;
+    color: white;
+    border:2px solid white;
+    width: 250px;
+    height: 30px;
+    background-size: cover;
+    font-family: Genos;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    
+
+    
+
+}
+
+
+
+

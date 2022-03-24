@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Cafe Menu</title>
+    <link rel="stylesheet" href="style-cafemenu.css">
+</head>
+<body class="body">
+    <form onsubmit="onSubmitOrderForm">
+
+
+     <!--TEXT INPUT-->
+    <h1 class="border">Caprena's Cafe Brew</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ptp0l51GC-XmqGXh-OqoFqHodtvBZJRDOA&usqp=CAU" alt="Pic of Coffee">
+    <h2>
+
+    <label for="mailaddress">Name</label>
+    <input type="text" id= "name">
+    <br>
+    <br>
+    <label for="mailaddress">Email</label>
+    <input type="text" id= "mailaddress" placeholder="me@example.com">
+    <br>
+    <label for="phone">Phone Number</label>
+    <input type="text" id= "phone" placeholder="502-555-5555" required>
+</h2>
+
+    <!--RADIO BUTTONS-->
+
+    <div>
+        <br>
+        <h1 class="h2">EXPRESSO</h1>
+        <input type="radio" id="Mocha" name="Drink" value="Mocha">
+        <label for="Mocha">Mocha</label>
+        <br>
+        <input type="radio" id="Latte" name="Drink" value="Latte">
+        <label for="Latte">Latte</label>
+        <br>
+        <input type="radio" id="Macchiato" name="Drink" value="Macchiato">
+        <label for="Macchiato">Macchiato</label>
+        <br>
+        <input type="radio" id="Cappuccino" name="Drink" value="Cappuccino">
+        <label for="Cappuccino">Cappuccino</label>
+    </div>
+    <div>
+        <br>
+        <h1 class="h2">ICE BLENDED</h1>
+        <input type="radio" id="Caramel" name="Drink" value="Caramel">
+        <label for="Caramel">Caramel</label>
+        <br>
+        <input type="radio" id="Coffee Latte" name="Drink" value="Coffee">
+        <label for="Coffee Latte">Coffee Latte</label>
+        <br>
+        <input type="radio" id="Frappe" name="Drink" value="Frappe">
+        <label for="Frappe">Frappe<label>
+        <br>
+        <input type="radio" id="Mint" name="Drink" value="Mint">
+        <label for="Mint">Mint</label>
+    </div>
+    <div>
+        <br>
+        <h1 class="h2" >TEA</h1>
+        <input type="radio" id="Jasmine Tea" name="Drink" value="Jasmine Tea">
+        <label for="Jasmine Tea">Jasmine Tea</label>
+        <br>
+        <input type="radio" id="Green Tea" name="Drink" value="Green Tea">
+        <label for="Green Tea">Green Tea</label>
+        <br>
+        <input type="radio" id="Earl Grey" name="Drink" value="Earl Grey">
+        <label for="Earl Grey">Earl Grey<label>
+        <br>
+        <input type="radio" id="English Tea" name="Drink" value="English Tea">
+        <label for="English Tea">English Tea</label>
+    </div>
+    <div>
+        <br>
+        <h1 class="h2">ADD ONS:</h1>
+        <input type="checkbox" id="milk" name="additives" value="Milk" checked>
+        <label for="milk">Milk</label>
+        <input type="checkbox" id="wholemilk" name="additives" value="Wholemilk">
+        <label for="wholemilk">Wholemilk</label> 
+        <input type="checkbox" id="oatmilk" name="additives" value="Oatmilk">
+        <label for="oatmilk">Oatmilk</label>
+        <input type="checkbox" id="almond milk" name="additives" value="Almond Milk">
+        <label for="Almond Milk">Almond Milk</label>
+        <br>
+        <input type="checkbox" id="hazelnut cream" name="additives" value="Hazelnut Cream">
+        <label for="hazelnut cream">Hazelnut Cream</label>
+        <br>
+        <input type="checkbox" id="sugar" name="additives" value="Sugar" checked>
+        <label for="sugar">Sugar</label>
+        <br>
+        <input type="checkbox" id="stevia" name="additives" value="Stevia" >
+        <label for="stevia">Stevia</label>
+
+        <!--TEXT AREA-->
+        <div id="div3">
+            <br>
+            <label for="message">SPECIAL NOTES:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="7" minlength="1" maxlength="30"></textarea>
+
+        </div>
+
+        <button>Submit Order</button>
+    </form>
+
+    <script>
+        function onSubmitOrderForm () {
+            alert("Oh hello")
+        }
+    </script>
+       
+    </div>

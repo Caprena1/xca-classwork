@@ -1,0 +1,41 @@
+* {
+    /* background-color: rgb(36, 33, 33); */
+}
+
+
+body {
+    text-align: center;
+    margin: 100px;
+    color: white;
+    background-color: rgb(36, 33, 33);
+}
+
+/*======================CLASS SELECTOR===================*/
+
+.code {
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: black;
+    width: 300px;
+    margin-left: 335px;
+    
+
+}
+
+.inlinecode {
+    background-color: white;
+    padding: 3px;
+    text-align: center;
+    color: black;
+}
+
+
+
+/*======================I.D. SELECTOR===================*/
+
+#fontsize {
+    font-size: medium;
+}
+

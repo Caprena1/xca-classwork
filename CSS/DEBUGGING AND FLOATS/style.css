@@ -1,8 +1,10 @@
-.red {
+.image {
     color: red;
+    float: left;
 
 }
 
 .blue {
     color: blue;
+    float: right;
 }

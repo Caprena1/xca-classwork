@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 400px 200px;
+    grid-template-areas: 
+        "hd hd hd"
+        "sb con ads"
+        "ftr ftr ads";
+
+}
+
+.header {
+    grid-area: hd;
+    background-color: pink;
+
+}
+.sidebar {
+    grid-area: sb;
+    background-color: lightgray;
+
+}
+
+.content {
+    grid-area: con;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.footer {
+    grid-area: ftr;
+    background-color: green;
+
+}
+.ads {
+    grid-area: ads;
+    background-color: blueviolet;
+
+}
+
+.copyright {
+    grid-area: copyright;
+}

@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+
+}
+
+header {
+    flex: 1;
+    background-color: aqua;
+
+
+}
+
+
+main {
+    flex: 3;
+    background-color: plum;
+    display: flex;
+    
+
+
+}
+
+.sidebar {
+    background-color: indigo;
+    flex: 1;
+}
+
+.content {
+
+    background-color: steelblue;
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ads {
+
+    background-color: wheat;
+    flex: 1;
+   
+
+}
+
+
+footer {
+    flex: 1;
+    background-color: green;
+
+
+}

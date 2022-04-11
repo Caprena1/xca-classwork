@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(190, 190, 142);
+}
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    height: 100%;
+    align-items: ;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+ /* .container > div {
+    flex: 1;
+} */
+
+.home {
+    background-color: aquamarine;
+    /* align-self: flex-end; */
+    
+
+}
+
+.search {
+    background-color: salmon;
+}
+ 
+.logout {
+    background-color: aquamarine;
+    /* align-self: flex-start; */
+} 
+
+/* .profile {
+    background-color: salmon;
+} */

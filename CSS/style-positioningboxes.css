@@ -1,0 +1,28 @@
+p {
+    color: green;
+}
+
+h1 {
+    
+    font-size: large;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+#box {
+    height: 500;
+    width: 500px;
+    background-color: green;
+    position: absolute;
+    top: 50;
+    left: 50;
+}

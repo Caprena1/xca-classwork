@@ -1,0 +1,22 @@
+ol{
+    list-style-type: none;
+    list-style-position: inside;
+    
+}
+
+li{
+    background-color: lightgreen;
+}
+
+li:nth-child(even){
+    color:lightgreen
+}
+
+table, td, th, tr {
+    border: 2px solid black;
+    border: border-collapse;
+}
+
+tr:nth-child(even){
+    background-color: coral;
+}

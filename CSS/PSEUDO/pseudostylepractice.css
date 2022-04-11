@@ -1,0 +1,27 @@
+navbar a {
+    color: yellow;
+}
+
+content a {
+    color: orange;
+} 
+
+/* ABOVE IS THE START BASE COLORS AND BELOW ARE THE PSEUDO */
+
+a {
+    color: mediumspringgreen
+}
+
+a:hover{
+    color: rebeccapurple
+}
+
+a:visited{
+    color:pink;
+}
+
+a:active{
+    color:darkturquoise
+}
+
+/* DEFAULT STATE -> HOVER -> ACTIVE -> VISITED */

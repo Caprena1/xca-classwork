@@ -1,0 +1,97 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    /* CALLED A RESET THAT ZEROS OUT DEFAULT */
+    
+}
+
+/* THE RULES BELOW WILL APPLY TO A LINKS */
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* WILL TURN ANY LINK YOU HOVER OVER RED */
+a:hover {
+    color:red;
+}
+
+/* WILL TURN ANY LINK YOU CLICK ON GREEN */
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: black;
+
+}
+
+
+
+body{
+    background-color: #F4F4F4;
+    color: #5555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+
+    /* OR YOU CAN DO THIS INSTEAD: 
+    font: normal 16px Arial, Helvetica, sans-serif; */
+
+    line-height: 1,6em;
+
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border:5px red solid; 
+    /* Same as doing border-left;right;top;bottom */
+    padding: 20px; 
+    margin: 20px; 
+    
+}
+
+.box-1 h1{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.boxl-2{
+    border: 3px dotted#ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.categories{
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding: 6px;
+    border-bottom: 1px #333;
+}

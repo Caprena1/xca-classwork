@@ -1,0 +1,27 @@
+sidebar a {
+    color: red;
+}
+
+footer a {
+    blue: blue
+}
+
+/* YOU CAN DO THIS EITHER WAY */
+
+/* a {
+    color: green
+}
+
+a:hover{
+    color:crimson
+}
+
+a:visited{
+    color:rgba(189, 183, 107, 0.164)
+}
+
+a:active{
+    color:darkturquoise
+} */
+
+/* DEFAULT STATE -> HOVER -> ACTIVE -> VISITED */

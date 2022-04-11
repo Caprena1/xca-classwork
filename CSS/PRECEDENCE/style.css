@@ -1,0 +1,32 @@
+.red {
+    color:red;
+}
+
+body {
+    color:yellow;
+} 
+
+body p {
+    color: darkgoldenrod
+}
+
+html body p {
+    color:red;
+}
+
+p {
+    color: blue;
+}
+
+p.red{
+    background-color: chocolate;
+}
+
+#redwanter {
+    color:green;
+
+}
+
+/* A CLASS ALWAYS WINS OVER A TAG */
+/* I.D. IS STRONG THAN CLASS AND CLASS IS STRONGER THAN BODY AND P. BODY AND P ARE EQUAL */
+/* CLASS/I.D./TAG 0,1,1 OR 1,1,1 POPUP OVER THE RULES IN CSS */
